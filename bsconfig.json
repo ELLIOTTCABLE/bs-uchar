@@ -1,0 +1,11 @@
+{
+  "name": "uchar",
+  "version": "0.1.0",
+  "sources": [
+    "src"
+  ],
+  "bs-dependencies" : [
+  ],
+  "generate-merlin": false,
+  "package-specs": ["es6-global"]
+}

@@ -6,3 +6,5 @@ tmp
 \#*#
 *.native
 *.byte
+lib
+.merlin
