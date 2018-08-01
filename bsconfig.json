@@ -1,11 +1,13 @@
 {
-  "name": "uchar",
-  "version": "0.1.0",
+  "name": "@elliottcable/bs-uchar",
+  "version": "0.0.2",
   "sources": [
     "src"
   ],
-  "bs-dependencies" : [
-  ],
-  "generate-merlin": false,
-  "package-specs": ["es6-global"]
+  "namespace": false,
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js"
 }

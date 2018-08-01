@@ -1,15 +1,30 @@
 {
-  "name": "uchar",
-  "version": "0.0.0",
+  "name": "@elliottcable/bs-uchar",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheSpyder/uchar.git"
+    "url": "git+https://github.com/ELLIOTTCABLE/uchar.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "src/uchar.bs.js",
+  "scripts": {
+    "prepare": "npm run clean && bsb -make-world",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonML",
+    "OCaml",
+    "compat",
+    "compatibility"
+  ],
+  "author": "Daniel Bünzli <daniel.buenzl i@erratique.ch>",
+  "license": "SEE LICENSE IN ./LICENSE",
   "bugs": {
-    "url": "https://github.com/TheSpyder/uchar/issues"
+    "url": "https://github.com/ELLIOTTCABLE/uchar/issues"
   },
-  "homepage": "https://github.com/TheSpyder/uchar#readme"
+  "homepage": "https://github.com/ELLIOTTCABLE/uchar#readme",
+  "dependencies": {
+    "bs-platform": "^4.0.2"
+  }
 }
