@@ -1,3 +1,32 @@
+`bs-uchar`
+----------
+This is the Uchar compatibility library from OCaml 4.03, backported to
+OCaml 4.02, and thus [BuckleScript][] (an OCaml-to-JavaScript compiler,
+forked from OCaml 4.02.3) and [Reason][] (an alternative OCaml syntax
+targeting that compiler.)
+
+You can safely ignore the installation instructions below when compiling
+to JS. Instead:
+
+1. Install this fork through npm:
+
+        npm install --save @elliottcable/bs-uchar
+
+2. Manually add `bs-uchar` to your `bsconfig.json`'s
+   `bs-dependencies`:
+
+        "bs-dependencies": [
+          ...
+          "@elliottcable/bs-uchar"
+        ],
+
+3. Use `Uchar.t`!
+
+   [BuckleScript]: <https://bucklescript.github.io/>
+   [Reason]: <https://reasonml.github.io/>
+
+#### Original README follows:
+
 Uchar — Compatibility library for OCaml's Uchar module
 -------------------------------------------------------------------------------
 Release %%VERSION%%
