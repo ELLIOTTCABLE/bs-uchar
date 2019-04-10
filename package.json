@@ -24,7 +24,10 @@
     "url": "https://github.com/ELLIOTTCABLE/uchar/issues"
   },
   "homepage": "https://github.com/ELLIOTTCABLE/uchar#readme",
-  "dependencies": {
+  "devDependencies": {
+    "bs-platform": "^6.0.0-dev.1"
+  },
+  "peerDependencies": {
     "bs-platform": ">=6.0.0-dev.1"
   }
 }
