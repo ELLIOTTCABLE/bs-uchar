@@ -5,7 +5,10 @@
     "type": "git",
     "url": "git+https://github.com/ELLIOTTCABLE/uchar.git"
   },
-  "main": "src/uchar.bs.js",
+  "files": [
+    "bsconfig.json",
+    "src/.gitkeep"
+  ],
   "scripts": {
     "prepare": "npm run clean && bsb -make-world",
     "clean": "bsb -clean-world",
