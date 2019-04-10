@@ -5,7 +5,10 @@
     "type": "git",
     "url": "git+https://github.com/ELLIOTTCABLE/uchar.git"
   },
-  "main": "src/uchar.bs.js",
+  "files": [
+    "bsconfig.json",
+    "src"
+  ],
   "scripts": {
     "prepare": "npm run clean && bsb -make-world",
     "clean": "bsb -clean-world",
@@ -24,7 +27,10 @@
     "url": "https://github.com/ELLIOTTCABLE/uchar/issues"
   },
   "homepage": "https://github.com/ELLIOTTCABLE/uchar#readme",
-  "dependencies": {
+  "devDependencies": {
+    "bs-platform": "^5.0.1"
+  },
+  "peerDependencies": {
     "bs-platform": "4.x || 5.x"
   }
 }
