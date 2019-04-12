@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ELLIOTTCABLE/uchar.git"
+    "url": "git+https://github.com/ELLIOTTCABLE/bs-uchar.git"
   },
   "files": [
     "bsconfig.json",
@@ -24,9 +24,9 @@
   "author": "Daniel Bünzli <daniel.buenzl i@erratique.ch>",
   "license": "SEE LICENSE IN ./LICENSE",
   "bugs": {
-    "url": "https://github.com/ELLIOTTCABLE/uchar/issues"
+    "url": "https://github.com/ELLIOTTCABLE/bs-uchar/issues"
   },
-  "homepage": "https://github.com/ELLIOTTCABLE/uchar#readme",
+  "homepage": "https://github.com/ELLIOTTCABLE/bs-uchar#readme",
   "devDependencies": {
     "bs-platform": "^5.0.1"
   },
