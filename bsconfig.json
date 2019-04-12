@@ -1,6 +1,6 @@
 {
-  "name": "@elliottcable/bs-uchar",
-  "version": "0.0.3",
+  "name": "bs-uchar",
+  "version": "0.0.4",
   "sources": [
     "src"
   ],
