@@ -9,7 +9,7 @@ You can safely ignore the installation instructions below when compiling
 to JS. Instead:
 
 1. Choose the correct version of `bs-uchar` for your version of
-   BuckleScript: ([See below](#versioning-libraries) for details)
+   BuckleScript: ([See below](#versioning--libraries) for details)
 
    | `bs-platform@...` | `bs-uchar@...` | Install with ...
    |              ---: | :---           | :---
