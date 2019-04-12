@@ -62,6 +62,9 @@ practice of leaving shimming to the end-consumer — the last project in
 the dependency-chain; although I would suggest mentioning `bs-uchar`
 in your README for users of BuckleScript versions before 6.0.0.
 
+   [npm-support]: <https://npm.community/t/publishing-versions-of-a-compatibility-library-that-are-specific-to-ranges-of-a-peer-dependency/6757/2>
+      "npm support-thread in which I attempt to figure this out"
+
 #### Original README follows:
 
 Uchar — Compatibility library for OCaml's Uchar module
