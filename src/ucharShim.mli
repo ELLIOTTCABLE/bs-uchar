@@ -10,6 +10,8 @@
 (*  the special exception on linking described in file ../LICENSE.     *)
 (*                                                                     *)
 (***********************************************************************)
+#if OCAML_VERSION =~ "<4.03" then
+module Uchar : sig
 
 (** Unicode characters.
 
@@ -80,3 +82,6 @@ val compare : t -> t -> int
 
 val hash : t -> int
 (** [hash u] associates a non-negative integer to [u]. *)
+
+end
+#end

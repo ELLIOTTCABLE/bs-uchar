@@ -10,6 +10,8 @@
 (*  the special exception on linking described in file ../LICENSE.     *)
 (*                                                                     *)
 (***********************************************************************)
+#if OCAML_VERSION =~ "<4.03" then
+module Uchar = struct
 
 let err_no_pred = "U+0000 has no predecessor"
 let err_no_succ = "U+10FFFF has no successor"
@@ -49,3 +51,6 @@ let unsafe_to_char = Char.unsafe_chr
 let equal : int -> int -> bool = ( = )
 let compare : int -> int -> int = Pervasives.compare
 let hash = to_int
+
+end
+#end
