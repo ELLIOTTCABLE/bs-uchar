@@ -1,6 +1,6 @@
 {
   "name": "bs-uchar",
-  "version": "0.0.4",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ELLIOTTCABLE/bs-uchar.git"
@@ -31,6 +31,6 @@
     "bs-platform": "^5.0.1"
   },
   "peerDependencies": {
-    "bs-platform": "4.x || 5.x"
+    "bs-platform": ">=4.0.0"
   }
 }
