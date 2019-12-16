@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ELLIOTTCABLE/bs-uchar#readme",
   "devDependencies": {
-    "bs-platform": "^5.0.1"
+    "bs-platform": "^5.2.1"
   },
   "peerDependencies": {
     "bs-platform": ">=4.0.0"
